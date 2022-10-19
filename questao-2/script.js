@@ -4,14 +4,13 @@
 // Profissao
 // Objetivo no Floripa Mais Tec
 
-
-
+//Variaveis
 var nome = "Adriano Jose Volter";
 var idade = 38;
 var profissao = "Autonomo";
 var objetivo = "Aprender a programar,conseguir uma vaga de trabalho"
 
-
+//Imprime no console os valores das variaveis
 console.log("Nome: "+nome)
 console.log("Idade: "+idade+" anos")
 console.log("Profissão: "+profissao)

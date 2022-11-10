@@ -1,0 +1,80 @@
+/* Usado para importar regras de estilo de outras folhas de estilo. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Noto+Sans:wght@200;300;400&family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+* {
+    /* Este seletor escolhe todos os elementos do documento e redefine
+todas as configurações do navegador. */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: “Source Sans Pro”, sans-serif;
+    font-weight: 300;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.sobre {
+    align-items: center;
+    display: inline-flex;
+    margin: 50px auto;
+}
+
+.sobre figcaption img {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+fieldset {
+    width: 60%;
+    padding: 10px 0 20px;
+    margin-left: 10px;
+    border: 4px solid rgb(66, 138, 232);
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(106, 120, 120);
+}
+
+.agrupamento {
+    display: flex;
+    flex-direction: column;
+}
+
+.agrupamento-botao {
+    padding-top: 10px;
+}
+
+.entrada {
+    font-family: inherit;
+    line-height: 1.15;
+    border: 4px solid rgb(234, 100, 100);
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.entrada:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+
+.entrada.mensagem {
+    resize: none;
+}
+
+.rotulo {
+    padding-bottom: 2.5px;
+    padding-top: 20px;
+    font-weight: 600;
+}

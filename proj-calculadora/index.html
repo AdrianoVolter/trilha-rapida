@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu site-contato</title>
+</head>
+
+<body class="">
+    <section class="sobre">
+        <fieldset class="agrupamento">
+            <h1 class="rotulo" for="">Calculadora</h1><br>
+            <form action="contato" id="inscricao" method="post">
+                <input id="n1" class="entrada" type="number" required="required"
+                    placeholder="Digite o primeiro numero:"><br><br>
+                <input id="n2" class="entrada" type="number" required="required"
+                    placeholder="Digite o segundo numero:"><br><br>
+                <select class="entrada" name="tipo" id="select" required="required"><br>
+
+                    <option id='op1' value="+">Soma</option>
+                    <option id='op2' value="-">Subtração</option>
+                    <option id='op3' value="*">Multiplicação</option>
+                    <option id='op4' value="/">Divisão</option>
+                    <option id='op5' value="%">Resto</option>
+                    <option id='op6' value="**">Potencia</option>
+                    
+                </select><br><br>
+                <input class="entrada" type="button" value="Calcular" onclick="calcular()">
+            </form>
+            <p class="rotulo" id="res"></p><br>
+        </fieldset>
+    </section>
+    <!-- <footer>
+        <ul class="linha">
+            <li>
+                <a href="https://www.instagram.com/">
+                    <img src="assets/instagran.png" width="40" alt="Instagran">
+                </a>
+                
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/">
+                    <img src="assets/facebook.png" width="40" alt="Facebook">
+                </a>
+                
+            </li>
+
+            <li>
+                <a href="https://twitter.com">
+                    <img src="assets/twitter.png" width="40" alt="Twitter">
+                </a>
+                
+            </li>
+        </ul>
+
+    </footer> -->
+    <script type="" src="script.js"></script>
+</body>
+
+</html>
+
+<!-- No Windows Shift+ Alt+F
+
+    No Mac Shift+ Option+F
+
+    No Linux Ctrl+ Shift+I
+-->
